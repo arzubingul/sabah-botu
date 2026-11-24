@@ -2,7 +2,7 @@ name: Sabah Botu
 
 on:
   schedule:
-    - cron: "50 06 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
